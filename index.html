@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romina Noriega - CV Web</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f4f6f9; color: #333; line-height: 1.6; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 40px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        
+        
+        header { 
+            display: flex; 
+            align-items: center; 
+            gap: 25px; 
+            border-bottom: 2px solid #2c3e50; 
+            padding-bottom: 25px; 
+            margin-bottom: 25px; 
+        }
+        .profile-pic {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #2980b9;
+            flex-shrink: 0;
+        }
+        .header-text { flex-grow: 1; }
+        
+        h1 { color: #2c3e50; font-size: 2em; margin-bottom: 5px; }
+        .subtitle { color: #34495e; font-size: 1em; font-weight: 500; margin-bottom: 12px; }
+        .contact { display: flex; flex-wrap: wrap; gap: 12px; font-size: 0.88em; color: #555; }
+        .contact a { color: #2980b9; text-decoration: none; }
+        
+        section { margin-bottom: 25px; }
+        h3 { color: #2980b9; border-bottom: 1px solid #ddd; padding-bottom: 5px; margin-bottom: 15px; font-size: 1.25em; }
+        ul { list-style-type: square; margin-left: 20px; }
+        .skills-grid { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+        .badge { background: #eef2f7; color: #2c3e50; padding: 5px 12px; border-radius: 15px; font-size: 0.85em; font-weight: 600; }
+        .job, .edu { margin-bottom: 15px; }
+        .job-title, .edu-title { font-weight: bold; font-size: 1.05em; color: #2c3e50; }
+        .date { font-size: 0.85em; color: #7f8c8d; }
+
+        /* Ajuste para pantallas de celular */
+        @media (max-width: 600px) {
+            header { flex-direction: column; text-align: center; }
+            .contact { justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <!-- Reemplazá 'foto.jpg' por el nombre exacto de tu archivo de imagen -->
+        <img src="Foto.jpg" alt="Romina Noriega" class="profile-pic">
+        
+        <div class="header-text">
+            <h1>Romina Noriega</h1>
+            <h2 class="subtitle">Estudiante de Licenciatura en Sistemas | Perfil IT Trainee / Junior</h2>
+            <div class="contact">
+                <span>📍 Grand Bourg, Buenos Aires</span>
+                <span>✉️ <a href="mailto:rominanoriega24@gmail.com">rominanoriega24@gmail.com</a></span>
+                <span>📞 1167478462</span>
+                <span>🔗 <a href="https://linkedin.com/in/romina-noriega-951186b7" target="_blank">LinkedIn</a></span>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <h3>Perfil Profesional</h3>
+        <p>Estudiante de Licenciatura en Sistemas en la Universidad Nacional de General Sarmiento (UNGS)[cite: 1], orientada al desarrollo de software con Python y apasionada por la Ciberseguridad[cite: 1]. Cuento con una sólida base académica en algoritmos, lógica de programación y resolución de problemas, complementada con habilidades transferibles de organización, gestión eficiente y atención al cliente[cite: 1]. Busco mi primera oportunidad laboral en el área de IT (Soporte Técnico, QA Trainee, Desarrollo Junior o Ciberseguridad)[cite: 1].</p>
+    </section>
+
+    <section>
+        <h3>Habilidades Técnicas y Competencias</h3>
+        <p><strong>Hard Skills:</strong></p>
+        <div class="skills-grid">
+            <span class="badge">Python (Básico/Intermedio)</span>
+            <span class="badge">Ciberseguridad</span>
+            <span class="badge">Lógica de Programación</span>
+            <span class="badge">Estructuras de Datos</span>
+            <span class="badge">Microsoft Office</span>
+            <span class="badge">Inglés B1</span>
+        </div>
+        <br>
+        <p><strong>Soft Skills:</strong></p>
+        <div class="skills-grid">
+            <span class="badge">Resolución analítica de problemas</span>
+            <span class="badge">Atención al detalle y organización</span>
+            <span class="badge">Trabajo en equipo y comunicación</span>
+            <span class="badge">Proactividad y rápida capacidad de aprendizaje</span>
+        </div>
+    </section>
+
+    <section>
+        <h3>Educación</h3>
+        <div class="edu">
+            <div class="edu-title">Licenciatura en Sistemas</div>
+            <div>Universidad Nacional de General Sarmiento (UNGS)</div>
+            <div class="date">2023 - Actualidad</div>
+            <p>Formación orientada a arquitectura de computadores, estructura de datos, lógica de sistemas y desarrollo de software.</p>
+        </div>
+    </section>
+
+    <section>
+        <h3>Formación Complementaria & Certificaciones</h3>
+        <ul>
+            <li>Python (Fundamentos y Lógica de Programación)</li>
+            <li>Fundamentos de Ciberseguridad</li>
+            <li>Marketing Digital</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Experiencia Laboral</h3>
+        <div class="job">
+            <div class="job-title">Recepcionista / Administrativa</div>
+            <div>Municipio de Malvinas Argentinas</div>
+            <div class="date">Mar 2020 - Dic 2023</div>
+            <ul>
+                <li>Gestión de incidencias y datos: Recepción, registro y derivación eficiente de consultas y reclamos.</li>
+                <li>Optimización de procesos: Coordinación operativa con distintas áreas para agilizar tiempos de respuesta.</li>
+                <li>Atención e interrelación: Gestión de agenda y coordinación de turnos con profesionalismo.</li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
