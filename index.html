@@ -9,7 +9,7 @@
         body { background-color: #f4f6f9; color: #333; line-height: 1.6; padding: 20px; }
         .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 40px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
         
-        
+        /* Estilos del Encabezado con Foto */
         header { 
             display: flex; 
             align-items: center; 
@@ -38,9 +38,9 @@
         ul { list-style-type: square; margin-left: 20px; }
         .skills-grid { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
         .badge { background: #eef2f7; color: #2c3e50; padding: 5px 12px; border-radius: 15px; font-size: 0.85em; font-weight: 600; }
-        .job, .edu { margin-bottom: 15px; }
+        .job, .edu { margin-bottom: 20px; }
         .job-title, .edu-title { font-weight: bold; font-size: 1.05em; color: #2c3e50; }
-        .date { font-size: 0.85em; color: #7f8c8d; }
+        .date { font-size: 0.85em; color: #7f8c8d; margin-bottom: 5px; }
 
         /* Ajuste para pantallas de celular */
         @media (max-width: 600px) {
@@ -53,7 +53,6 @@
 
 <div class="container">
     <header>
-        
         <img src="Foto.jpg.jpeg" alt="Romina Noriega" class="profile-pic">
         
         <div class="header-text">
@@ -70,8 +69,7 @@
 
     <section>
         <h3>Perfil Profesional</h3>
-        <p>Estudiante de Licenciatura en Sistemas en la Universidad Nacional de General Sarmiento (UNGS), orientada al desarrollo de software con Python y apasionada por la Ciberseguridad. Cuento con una sólida base académica en algoritmos, lógica de programación y resolución de problemas, complementada con habilidades transferibles de organización, gestión eficiente y atención al cliente. Busco mi primera oportunidad laboral en el área de IT (Soporte Técnico, QA Trainee, Desarrollo Junior o Ciberseguridad).</p>
-        
+        <p>Estudiante de Licenciatura en Sistemas en la Universidad Nacional de General Sarmiento (UNGS)[cite: 1], orientada al desarrollo de software con Python y apasionada por la Ciberseguridad[cite: 1]. Cuento con una sólida base académica en algoritmos, lógica de programación y resolución de problemas, complementada con habilidades transferibles de organización, gestión eficiente, control de stock y atención al cliente[cite: 1]. Busco mi primera oportunidad laboral en el área de IT (Soporte Técnico, QA Trainee, Desarrollo Junior o Ciberseguridad)[cite: 1].</p>
     </section>
 
     <section>
@@ -90,6 +88,7 @@
         <div class="skills-grid">
             <span class="badge">Resolución analítica de problemas</span>
             <span class="badge">Atención al detalle y organización</span>
+            <span class="badge">Gestión de stock y arqueo de caja</span>
             <span class="badge">Trabajo en equipo y comunicación</span>
             <span class="badge">Proactividad y rápida capacidad de aprendizaje</span>
         </div>
@@ -101,29 +100,41 @@
             <div class="edu-title">Licenciatura en Sistemas</div>
             <div>Universidad Nacional de General Sarmiento (UNGS)</div>
             <div class="date">2023 - Actualidad</div>
-            <p>Formación orientada a arquitectura de computadores, estructura de datos, lógica de sistemas y desarrollo de software.</p>
+            <p>Formación orientada a arquitectura de computadores, estructura de datos, lógica de sistemas y desarrollo de software[cite: 1].</p>
         </div>
     </section>
 
     <section>
         <h3>Formación Complementaria & Certificaciones</h3>
         <ul>
-            <li>Python (Fundamentos y Lógica de Programación)</li>
-            <li>Fundamentos de Ciberseguridad</li>
-            <li>Marketing Digital</li>
+            <li>Python (Fundamentos y Lógica de Programación)[cite: 1]</li>
+            <li>Fundamentos de Ciberseguridad[cite: 1]</li>
+            <li>Marketing Digital[cite: 1]</li>
         </ul>
     </section>
 
     <section>
         <h3>Experiencia Laboral</h3>
+        
+        <div class="job">
+            <div class="job-title">Atención al Cliente y Gestión Comercial</div>
+            <div>Maxiquiosco</div>
+            <div class="date">2024 - Actualidad</div>
+            <ul>
+                <li>Atención al público y resolución ágil de requerimientos comerciales.</li>
+                <li>Manejo de caja, control de facturación y arqueos diarios.</li>
+                <li>Control e inventario de mercadería, gestión de proveedores y organización del punto de venta.</li>
+            </ul>
+        </div>
+
         <div class="job">
             <div class="job-title">Recepcionista / Administrativa</div>
             <div>Municipio de Malvinas Argentinas</div>
             <div class="date">Mar 2020 - Dic 2023</div>
             <ul>
-                <li>Gestión de incidencias y datos: Recepción, registro y derivación eficiente de consultas y reclamos.</li>
-                <li>Optimización de procesos: Coordinación operativa con distintas áreas para agilizar tiempos de respuesta.</li>
-                <li>Atención e interrelación: Gestión de agenda y coordinación de turnos con profesionalismo.</li>
+                <li>Gestión de incidencias y datos: Recepción, registro y derivación eficiente de consultas y reclamos[cite: 1].</li>
+                <li>Optimización de procesos: Coordinación operativa con distintas áreas para agilizar tiempos de respuesta[cite: 1].</li>
+                <li>Atención e interrelación: Gestión de agenda y coordinación de turnos con alto grado de profesionalismo[cite: 1].</li>
             </ul>
         </div>
     </section>
